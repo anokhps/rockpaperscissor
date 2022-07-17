@@ -52,6 +52,8 @@ function game() {
             ++compScore;
             console.log(compScore);
         } else if (winner === undefined) {
+
+            
             continue;
         }
     }
