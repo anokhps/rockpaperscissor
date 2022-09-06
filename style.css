@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.content {
+    /* background: none; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.player,
+.computer {
+    font-size: 30px;
+
+}
+
+.score-space {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.result {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.score,
+.final {
+    font-size: 25px;
+
+}
+
+.screen {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
